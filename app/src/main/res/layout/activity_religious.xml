@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:scrollbarSize="40dip"
+xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.harshitkalal.test.religious"
+    android:orientation="vertical"
+
+
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/ossian_temple_jodhpur"
+            android:scaleType="fitXY"
+            android:tag="ranthambore"
+            android:textAlignment="center"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ossian Temple, Jodhpur"
+                android:textSize="18dip"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/nasiyan_jain_tempel_ajmer"
+            android:scaleType="fitXY"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasiyan Temple, Ajmer"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/akshardham_temple_jaipur"
+            android:scaleType="fitXY"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Akshardham Temple , Jaipur"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/tijara_jain_temple_alwar"
+            android:scaleType="fitXY"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tijara Temple, Alwar"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/birla_temple"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Birla Temple, Jaipur"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/ranakpur_tempel"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ranakpur Temple, Pali"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/meerabai_tempel"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meerabai Temple, Chittorgarh"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/achal_nath_temple_jodhpur"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Achal Nath Temple, Jodhpur"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+</ScrollView>
+
+
+
+

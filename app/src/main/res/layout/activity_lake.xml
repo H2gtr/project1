@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:scrollbarSize="40dip"
+xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.harshitkalal.test.lake"
+    android:orientation="vertical"
+
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:src="@drawable/udai_sagar_lake"
+       android:scaleType="fitXY"
+        />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Udai Sagar Lake, Udaipur"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/pushkar_lake"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pushkar Lake"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/fateh_sagar_lake"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fateh Sagar Lake,Udaipur"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/gadisar_lake"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GadiSagar Lake Jaisalmer"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/mansagar_lake_jaipur"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mna Sagar Lake Jaipur"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front"
+    android:orientation="vertical"
+    tools:context="com.harshitkalal.test.MainActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dip"
+        android:text="\tWelcome to Rajasthan\n\tTourism "
+
+        />
+
+
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="120dip"
+        android:layout_height="60dip"
+        android:textSize="20dip"
+         android:layout_gravity="center_horizontal"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:textAllCaps="false"
+        android:layout_marginTop="320dip"
+        android:text="Click" />
+
+
+
+
+</LinearLayout>

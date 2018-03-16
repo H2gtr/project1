@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:scrollbarSize="40dip"
+xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.harshitkalal.test.wildlife"
+    android:orientation="vertical"
+
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rajasthan_wildlife"
+            android:scaleType="fitXY"
+            android:tag="ranthambore"
+            android:textAlignment="center"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ranthambore National Park "
+                android:textSize="18dip"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="390dip"
+            android:src="@drawable/sariska_wildlife_sanctuary"
+            android:scaleType="fitXY"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sariska Wildlife Sanctuary"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/mount_abu_wild_life_sanctuary"
+            android:scaleType="fitXY"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wildlife Sanctuary Mount Abu"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/sawai_madhopur"
+            android:scaleType="fitXY"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sawai Madhopur"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/sandfish_desert_national_sanctuary"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sandfish,Desert National Park"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/nahargarh_biological_park"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biological Park,Nahargarh"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/wild4"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/wild3"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:scrollbarSize="40dip"
+xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.harshitkalal.test.palace"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/umaid_palace"
+            android:scaleType="fitXY"
+            android:tag="ranthambore"
+            android:textAlignment="center"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Umaid Palace"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/wind_palace"
+            android:scaleType="fitXY"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wind Palace, Jaipur"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/udaipur_city_palace"
+            android:scaleType="fitXY"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City Palace Udaipur"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/palace_of_bilara"
+            android:scaleType="fitXY"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bilara Palace"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:src="@drawable/udaipur_lake_palace"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lake Palace Udaipur"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
